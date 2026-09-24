@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="COFsConnect is an educational community portal for fisheries students to share news, notes, events, images, questions and useful academic resources." />
+  <meta name="theme-color" content="#292824" />
+  <title>COFsConnect | Connect. Learn. Share. Grow.</title>
+
+  <!-- Optional web fonts. Local fallbacks are defined in style.css for offline use. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-shell">
+    <header class="site-header" id="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="COFsConnect home">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-column brand-column-left"></span>
+            <span class="brand-arch"></span>
+            <span class="brand-column brand-column-right"></span>
+          </span>
+          <span class="brand-copy">
+            <strong>COFsConnect</strong>
+            <small>Connect. Learn. Share. Grow.</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation" aria-controls="primaryNav" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#notes">Notes</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#ask-seniors">Ask Seniors</a>
+          <a href="#events">Events</a>
+          <a href="#about">About</a>
+          <button class="nav-search" id="openGlobalSearch" type="button" aria-label="Open global search">⌕ <span>Search</span></button>
+          <a class="nav-experts" href="https://gittrivedi.github.io/#experts" target="_blank" rel="noopener noreferrer">Meet the Experts</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+  <div class="hero-grid container">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">DISCERE • COMMUNICARE • CRESCERE</p>
+      <h1 id="hero-title">COFsConnect</h1>
+      <p class="hero-tagline">Your academic community for knowledge, news and connection.</p>
+      <p class="hero-description">Discover college updates, share study resources, explore campus moments and connect with seniors and fellow students.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#notes">Explore Resources</a>
+        <a class="button button-secondary" href="#ask-seniors">Ask a Senior</a>
+        <a class="button button-ghost" href="https://gittrivedi.github.io/#experts" target="_blank" rel="noopener noreferrer">Meet the Experts</a>
+      </div>
+      <div class="hero-microcopy">
+        <span class="micro-seal">ACADEMIA • AQUATICS • COMMUNITY</span>
+        <span>Built for fisheries students, shaped by shared knowledge.</span>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="roman-arch arch-large hero-arch-slideshow">
+        <div class="arch-rings"></div>
+        <div class="hero-slide-stage" id="heroSlideStage" aria-roledescription="carousel" aria-label="Fisheries image slideshow">
+          <img id="heroSlideImage" class="hero-slide-image" src="assets/images/hero-1.jpg" alt="Fisheries and aquatic life" fetchpriority="high" />
+          <div class="hero-slide-scrim"></div>
+          <div class="hero-slide-copy">
+            <span class="category-label" id="heroSlideTitle">Aquatic Life</span>
+            <p id="heroSlideCaption">Exploring the world beneath the surface.</p>
+          </div>
+          <button class="hero-slide-control hero-slide-prev" id="heroPrev" type="button" aria-label="Previous hero image">‹</button>
+          <button class="hero-slide-control hero-slide-next" id="heroNext" type="button" aria-label="Next hero image">›</button>
+          <div class="hero-slide-dots" id="heroSlideDots" role="tablist" aria-label="Choose hero image"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-bottom-ornament" aria-hidden="true"><span></span><i></i><span></span></div>
+</section>
+
+<section class="section quick-access-section" id="explore" aria-labelledby="explore-title">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div><p class="eyebrow">EXPLORE COFsCONNECT</p><h2 id="explore-title">Find your next thread</h2></div>
+      <p class="section-heading-copy">A compact doorway into the parts of campus life students use most.</p>
+    </div>
+    <div class="quick-access-grid">
+      <a class="quick-card reveal" href="#news"><span class="quick-number">01</span><strong>News</strong><small>College updates and stories</small></a>
+      <a class="quick-card reveal" href="#notes"><span class="quick-number">02</span><strong>Notes & Resources</strong><small>Study material and practicals</small></a>
+      <a class="quick-card reveal" href="#gallery"><span class="quick-number">03</span><strong>Gallery</strong><small>Campus memories and events</small></a>
+      <a class="quick-card reveal" href="#ask-seniors"><span class="quick-number">04</span><strong>Ask Seniors</strong><small>Questions from the community</small></a>
+      <a class="quick-card reveal" href="#events"><span class="quick-number">05</span><strong>Events</strong><small>What's on the academic calendar</small></a>
+      <a class="quick-card reveal" href="#request-notes"><span class="quick-number">06</span><strong>Request Notes</strong><small>Ask for unavailable material</small></a>
+    </div>
+  </div>
+</section>
+
+      <section class="section section-stone" id="latest" aria-labelledby="latest-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">THE BULLETIN</p>
+              <h2 id="latest-title">Latest News</h2>
+            </div>
+            <a class="text-link" href="#news">View All <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="news-grid compact-grid" id="latestNewsGrid" aria-live="polite"></div>
+        </div>
+      </section>
+<section class="section section-cream" id="request-notes" aria-labelledby="request-notes-title">
+  <div class="container request-notes-grid">
+    <div class="request-intro reveal">
+      <p class="eyebrow">THE REQUEST DESK</p>
+      <h2 id="request-notes-title">Request Notes</h2>
+      <p>Looking for a practical manual, presentation, previous-year paper or a topic that is not on the shelf yet? Send a request and the administrator can track it from this browser.</p>
+      <div class="request-callout"><span>01</span><div><strong>Requested material</strong><p>Requests are stored locally now and can later be connected to Firebase or Supabase.</p></div></div>
+    </div>
+    <div class="panel request-panel reveal">
+      <form id="notesRequestForm" class="form-grid">
+        <div class="form-field"><label for="requestName">Student Name</label><input id="requestName" required maxlength="80" placeholder="Your name" /></div>
+        <div class="form-field"><label for="requestSemester">Year / Semester</label><input id="requestSemester" required maxlength="60" placeholder="e.g. 2nd Year / 3rd Semester" /></div>
+        <div class="form-field"><label for="requestSubject">Subject</label><input id="requestSubject" required maxlength="100" placeholder="Subject name" /></div>
+        <div class="form-field"><label for="requestType">Resource Type</label><select id="requestType" required><option value="">Select resource type</option><option>Notes</option><option>Practical Manual</option><option>Presentation</option><option>Assignment</option><option>Previous Year Question Paper</option><option>Study Material</option><option>Other</option></select></div>
+        <div class="form-field full-width"><label for="requestTitle">Topic / Title Requested</label><input id="requestTitle" required maxlength="140" placeholder="What material are you looking for?" /></div>
+        <div class="form-field full-width"><label for="requestMessage">Additional Message</label><textarea id="requestMessage" maxlength="700" rows="5" placeholder="Add chapter, unit, practical number, preferred format or any other useful detail."></textarea></div>
+        <div class="form-field"><label for="requestContact">Optional Contact</label><input id="requestContact" maxlength="120" placeholder="Email / phone / other contact" /></div>
+        <div class="form-actions"><button class="button button-primary" type="submit">Submit Request</button><span id="notesRequestMessage" class="form-message" role="status" aria-live="polite"></span></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+      <section class="section" id="notes-preview" aria-labelledby="featured-notes-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">THE LIBRARY</p>
+              <h2 id="featured-notes-title">Featured Notes & Resources</h2>
+            </div>
+            <a class="text-link" href="#notes">View All <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="resource-grid" id="featuredNotesGrid"></div>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="home-events" aria-labelledby="upcoming-events-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">MARK YOUR CALENDAR</p>
+              <h2 id="upcoming-events-title">Upcoming Events</h2>
+            </div>
+            <a class="text-link" href="#events">View All <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="timeline-mini" id="homeEventsList"></div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="ask-preview" aria-labelledby="ask-preview-title">
+        <div class="container two-column-block">
+          <div class="section-heading heading-light reveal">
+            <div>
+              <p class="eyebrow">PEER KNOWLEDGE</p>
+              <h2 id="ask-preview-title">Ask Seniors</h2>
+              <p>Turn the corridor question into a searchable answer. Ask about practicals, exams, projects, internships, hostel life or the little things that nobody puts in the syllabus.</p>
+            </div>
+            <a class="button button-light" href="#ask-seniors">Open Ask Seniors</a>
+          </div>
+          <div class="question-highlight reveal" id="questionHighlight"></div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery-preview" aria-labelledby="gallery-preview-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">CAMPUS MOMENTS</p>
+              <h2 id="gallery-preview-title">Gallery Highlights</h2>
+            </div>
+            <a class="text-link" href="#gallery">View All <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="gallery-grid gallery-preview-grid" id="homeGalleryGrid"></div>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="experts" aria-labelledby="experts-title">
+        <div class="container experts-block">
+          <div class="roman-side-columns" aria-hidden="true">
+            <span class="mini-column"></span>
+            <span class="mini-column"></span>
+          </div>
+          <div class="experts-content reveal">
+            <p class="eyebrow">BEYOND THE CLASSROOM</p>
+            <h2 id="experts-title">Meet the Experts</h2>
+            <p>For specialised academic guidance, explore the expert platform in a new tab. COFsConnect stays focused on the student community while the expert network provides a dedicated place for deeper consultation.</p>
+            <a class="button button-primary" href="https://gittrivedi.github.io/#experts" target="_blank" rel="noopener noreferrer">Open Expert Network ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-stone" id="news" aria-labelledby="news-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">NEWSROOM</p>
+              <h2 id="news-title">College News & Announcements</h2>
+            </div>
+            <button class="text-link button-reset" id="clearNewsFilters" type="button">Reset Filters</button>
+          </div>
+          <div class="filter-toolbar reveal">
+            <label class="search-field large-search">
+              <span class="sr-only">Search news</span>
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input id="newsSearch" type="search" placeholder="Search news, categories or authors…" autocomplete="off" />
+            </label>
+            <div class="chip-row" id="newsFilters" role="group" aria-label="News category filters">
+              <button class="chip active" type="button" data-news-filter="All">All</button>
+              <button class="chip" type="button" data-news-filter="College">College</button>
+              <button class="chip" type="button" data-news-filter="Academic">Academic</button>
+              <button class="chip" type="button" data-news-filter="Events">Events</button>
+              <button class="chip" type="button" data-news-filter="Examination">Examination</button>
+              <button class="chip" type="button" data-news-filter="Announcements">Announcements</button>
+              <button class="chip" type="button" data-news-filter="Achievements">Achievements</button>
+            </div>
+          </div>
+          <div class="news-grid" id="newsGrid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="notes" aria-labelledby="notes-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">DIGITAL SHELF</p>
+              <h2 id="notes-title">Notes & Resources</h2>
+            </div>
+            <button class="text-link button-reset" id="clearNotesFilters" type="button">Reset Filters</button>
+          </div>
+          <div class="filter-toolbar reveal">
+            <label class="search-field large-search">
+              <span class="sr-only">Search notes</span>
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input id="notesSearch" type="search" placeholder="Search notes, subjects, semesters…" autocomplete="off" />
+            </label>
+            <div class="chip-row" id="notesFilters" role="group" aria-label="Notes category filters">
+              <button class="chip active" type="button" data-note-filter="All">All</button>
+              <button class="chip" type="button" data-note-filter="Fish Biology">Fish Biology</button>
+              <button class="chip" type="button" data-note-filter="Aquaculture">Aquaculture</button>
+              <button class="chip" type="button" data-note-filter="Fish Nutrition">Fish Nutrition</button>
+              <button class="chip" type="button" data-note-filter="Fish Processing">Fish Processing</button>
+              <button class="chip" type="button" data-note-filter="Fisheries Management">Fisheries Management</button>
+              <button class="chip" type="button" data-note-filter="Fish Physiology">Fish Physiology</button>
+              <button class="chip" type="button" data-note-filter="Environmental Science">Environmental Science</button>
+              <button class="chip" type="button" data-note-filter="Entrepreneurship">Entrepreneurship</button>
+              <button class="chip" type="button" data-note-filter="Practical Manuals">Practical Manuals</button>
+              <button class="chip" type="button" data-note-filter="Presentations">Presentations</button>
+              <button class="chip" type="button" data-note-filter="Assignments">Assignments</button>
+              <button class="chip" type="button" data-note-filter="Other">Other</button>
+            </div>
+          </div>
+          <div class="resource-grid" id="notesGrid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div><p class="eyebrow">THE ALBUM</p><h2 id="gallery-title">College Life Gallery</h2></div>
+      <p class="section-heading-copy">Browse college memories, celebrations, field visits and fisheries learning by collection.</p>
+    </div>
+    <div class="chip-row gallery-filters reveal" id="galleryFilters" role="group" aria-label="Gallery category filters"></div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+      <section class="section section-dark" id="ask-seniors" aria-labelledby="ask-title">
+        <div class="container">
+          <div class="section-heading heading-light reveal">
+            <div>
+              <p class="eyebrow">PEER-TO-PEER</p>
+              <h2 id="ask-title">Ask Seniors</h2>
+              <p>Questions and answers are stored in this browser for now. The data layer is structured so it can later be connected to a shared backend.</p>
+            </div>
+          </div>
+
+          <div class="ask-layout">
+            <div class="panel light-panel reveal">
+              <div class="panel-heading">
+                <h3>Ask a Question</h3>
+                <span class="pill">Community</span>
+              </div>
+              <form id="questionForm" class="form-grid">
+                <div class="form-field">
+                  <label for="questionName">Name</label>
+                  <input id="questionName" name="name" type="text" required maxlength="60" placeholder="Your name" />
+                </div>
+                <div class="form-field">
+                  <label for="questionYear">Year / Semester</label>
+                  <input id="questionYear" name="year" type="text" required maxlength="40" placeholder="e.g. B.F.Sc. 2nd Year / 3rd Sem" />
+                </div>
+                <div class="form-field">
+                  <label for="questionCategory">Subject / Category</label>
+                  <select id="questionCategory" name="category" required>
+                    <option value="">Select a category</option>
+                    <option>Academics</option><option>Practical</option><option>Examinations</option><option>Projects</option><option>Internships</option><option>Hostel</option><option>College Life</option><option>Career</option><option>Fisheries</option><option>Other</option>
+                  </select>
+                </div>
+                <div class="form-field full-width">
+                  <label for="questionText">Question</label>
+                  <textarea id="questionText" name="question" required maxlength="800" rows="6" placeholder="Ask a clear, useful question…"></textarea>
+                  <small class="field-help">Optional image/file attachment is represented in the demo UI below. A true upload needs a backend or file-storage service.</small>
+                </div>
+                <div class="form-field full-width">
+                  <label for="questionAttachment">Optional image/file</label>
+                  <input id="questionAttachment" name="attachment" type="file" accept="image/*,.pdf,.doc,.docx,.ppt,.pptx" />
+                </div>
+                <div class="full-width form-actions">
+                  <button class="button button-primary" type="submit">Submit Question</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="questions-column">
+              <div class="question-toolbar reveal">
+                <label class="search-field dark-search">
+                  <span class="sr-only">Search questions</span>
+                  <span class="search-icon" aria-hidden="true">⌕</span>
+                  <input id="questionSearch" type="search" placeholder="Search questions…" autocomplete="off" />
+                </label>
+              </div>
+              <div class="questions-list" id="questionsList" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="seniors" aria-labelledby="seniors-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">PEER DIRECTORY</p>
+              <h2 id="seniors-title">Meet Your Seniors</h2>
+            </div>
+          </div>
+          <div class="senior-grid" id="seniorGrid"></div>
+        </div>
+      </section>
+
+      <section class="section section-stone" id="events" aria-labelledby="events-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">ACADEMIC CALENDAR</p>
+              <h2 id="events-title">Events</h2>
+            </div>
+            <button class="text-link button-reset" id="clearEventSearch" type="button">Reset Search</button>
+          </div>
+          <div class="filter-toolbar reveal">
+            <label class="search-field large-search">
+              <span class="sr-only">Search events</span>
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input id="eventsSearch" type="search" placeholder="Search events, organisers or locations…" autocomplete="off" />
+            </label>
+          </div>
+          <div class="events-timeline" id="eventsTimeline"></div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <div class="roman-arch arch-about">
+              <div class="arch-rings"></div>
+              <div class="about-arch-content">
+                <span class="about-seal">COFs</span>
+                <span class="about-crossline"></span>
+                <span class="about-roman">DISCERE</span>
+                <span class="about-roman">COMMUNICARE</span>
+                <span class="about-roman">CRESCERE</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow">THE COMMUNITY</p>
+            <h2 id="about-title">About COFsConnect</h2>
+            <p>COFsConnect is a student-focused academic community platform designed to make the everyday flow of college information easier to discover, share and revisit.</p>
+            <p>It brings together college updates, study resources, practical material, presentations, assignments, campus photographs, events and peer-to-peer questions in one calm, searchable space.</p>
+            <div class="about-points">
+              <div><span>01</span><p>Access notes and practical resources</p></div>
+              <div><span>02</span><p>Share knowledge and useful information</p></div>
+              <div><span>03</span><p>Stay updated with college news and events</p></div>
+              <div><span>04</span><p>Ask seniors and discover experienced voices</p></div>
+              <div><span>05</span><p>Find photographs, achievements and campus moments</p></div>
+              <div><span>06</span><p>Connect with specialised experts when needed</p></div>
+            </div>
+            <a class="button button-secondary" href="https://gittrivedi.github.io/#experts" target="_blank" rel="noopener noreferrer">Explore Experts ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cream admin-section" id="admin" aria-labelledby="admin-title">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div><p class="eyebrow">SITE MANAGEMENT</p><h2 id="admin-title">Managed by Tryva</h2><p>Content management for COFsConnect. Public visitors see the community site, while approved administrators can manage browser-stored content here.</p></div>
+    </div>
+
+    <div id="adminLoginPanel" class="panel admin-login-panel reveal">
+      <div class="panel-heading"><div><h3>Administrator Login</h3><p class="muted">Frontend authentication is retained only for this static GitHub Pages build.</p></div><span class="pill">Administrator</span></div>
+      <form id="adminLoginForm" class="admin-login-form">
+        <div class="form-field"><label for="adminUsername">Username</label><input id="adminUsername" type="text" autocomplete="username" required value="admin" /></div>
+        <div class="form-field"><label for="adminPassword">Password</label><input id="adminPassword" type="password" autocomplete="current-password" required value="admin123" /></div>
+        <button class="button button-primary" type="submit">Login</button>
+      </form>
+      <p class="security-note"><strong>Security note:</strong> this browser-only login is not secure authentication. Use a real backend/authentication provider before publishing sensitive administrator controls.</p>
+      <p id="adminLoginMessage" class="form-message" role="status" aria-live="polite"></p>
+    </div>
+
+    <div id="adminDashboard" class="admin-dashboard" hidden>
+      <div class="admin-dashboard-head reveal"><div><p class="eyebrow">CONTROL ROOM</p><h3>Content Dashboard</h3></div><button class="button button-secondary button-small" id="adminLogout" type="button">Log out</button></div>
+      <div class="admin-stats" id="adminStats"></div>
+
+      <div class="admin-management-strip panel">
+        <div><p class="eyebrow">CONTENT MANAGEMENT</p><h4>Add, review and remove community content</h4></div>
+        <div class="admin-jump-links"><a href="#adminNewsForm">News</a><a href="#adminNotesForm">Notes</a><a href="#adminEventsForm">Events</a><a href="#adminGalleryForm">Gallery</a><a href="#adminNotesRequestManager">Notes Requests</a></div>
+      </div>
+
+      <div class="admin-grid">
+        <form class="panel admin-form" id="adminNewsForm">
+          <div class="panel-heading"><h4 id="adminNewsFormTitle">Add News</h4><span class="pill">localStorage</span></div>
+          <div class="form-field"><label for="adminNewsTitle">Title</label><input id="adminNewsTitle" required maxlength="120" /></div>
+          <div class="form-row"><div class="form-field"><label for="adminNewsCategory">Category</label><select id="adminNewsCategory" required><option>College</option><option>Academic</option><option>Events</option><option>Examination</option><option>Announcements</option><option>Achievements</option><option>College Community</option><option>Student Life</option><option>Infrastructure</option></select></div><div class="form-field"><label for="adminNewsDate">Date</label><input id="adminNewsDate" type="date" /></div></div>
+          <div class="form-field"><label for="adminNewsAuthor">Author / Source</label><input id="adminNewsAuthor" value="COFsConnect" required /></div>
+          <div class="form-field"><label for="adminNewsImage">Image path or URL</label><input id="adminNewsImage" type="text" placeholder="assets/images/news-1.jpg" /></div>
+          <div class="form-field"><label for="adminNewsDescription">Short description</label><textarea id="adminNewsDescription" rows="3" required maxlength="500"></textarea></div>
+          <div class="form-field"><label for="adminNewsArticle">Full article</label><textarea id="adminNewsArticle" rows="6" maxlength="3000" placeholder="Full news detail shown in Read More."></textarea></div>
+          <div class="form-actions"><button class="button button-primary" id="adminNewsSubmit" type="submit">Add News</button><button class="button button-secondary" id="adminNewsCancelEdit" type="button" hidden>Cancel Edit</button></div>
+        </form>
+
+        <form class="panel admin-form" id="adminNotesForm">
+          <div class="panel-heading"><h4>Upload Notes</h4><span class="pill">metadata</span></div>
+          <div class="form-field"><label for="adminNoteTitle">Title</label><input id="adminNoteTitle" required maxlength="120" /></div>
+          <div class="form-row"><div class="form-field"><label for="adminNoteSubject">Subject</label><select id="adminNoteSubject" required><option>Fish Biology</option><option>Aquaculture</option><option>Fish Nutrition</option><option>Fish Processing</option><option>Fisheries Management</option><option>Fish Physiology</option><option>Environmental Science</option><option>Entrepreneurship</option><option>Practical Manuals</option><option>Presentations</option><option>Assignments</option><option>Other</option></select></div><div class="form-field"><label for="adminNoteType">Type</label><select id="adminNoteType" required><option>Notes</option><option>Practical Manual</option><option>Presentation</option><option>Assignment</option><option>PDF</option><option>Other</option></select></div></div>
+          <div class="form-row"><div class="form-field"><label for="adminNoteSemester">Semester</label><input id="adminNoteSemester" placeholder="e.g. 3rd Semester" required /></div><div class="form-field"><label for="adminNoteDate">Date</label><input id="adminNoteDate" type="date" /></div></div>
+          <div class="form-field"><label for="adminNoteUploadedBy">Uploaded by</label><input id="adminNoteUploadedBy" value="COFsConnect Admin" required /></div>
+          <div class="form-field"><label for="adminNoteUrl">Resource path or URL</label><input id="adminNoteUrl" type="text" placeholder="assets/notes/fish-physiology.pdf" /></div>
+          <div class="form-field"><label for="adminNoteDescription">Description</label><textarea id="adminNoteDescription" rows="3" maxlength="400"></textarea></div>
+          <button class="button button-primary" type="submit">Add Resource</button>
+        </form>
+
+        <form class="panel admin-form" id="adminEventsForm">
+          <div class="panel-heading"><h4>Add Event</h4><span class="pill">localStorage</span></div>
+          <div class="form-field"><label for="adminEventTitle">Title</label><input id="adminEventTitle" required maxlength="120" /></div>
+          <div class="form-row"><div class="form-field"><label for="adminEventDate">Date</label><input id="adminEventDate" type="date" /></div><div class="form-field"><label for="adminEventTime">Time</label><input id="adminEventTime" placeholder="e.g. 10:30 AM" required /></div></div>
+          <div class="form-row"><div class="form-field"><label for="adminEventLocation">Location</label><input id="adminEventLocation" required /></div><div class="form-field"><label for="adminEventOrganizer">Organizer</label><input id="adminEventOrganizer" required /></div></div>
+          <div class="form-field"><label for="adminEventDescription">Description</label><textarea id="adminEventDescription" rows="4" required maxlength="500"></textarea></div>
+          <button class="button button-primary" type="submit">Add Event</button>
+        </form>
+
+        <form class="panel admin-form" id="adminGalleryForm">
+          <div class="panel-heading"><h4>Add Gallery Image</h4><span class="pill">local image path</span></div>
+          <div class="form-field"><label for="adminGalleryImage">Image path</label><input id="adminGalleryImage" type="text" placeholder="assets/images/christmas-01.jpg" required /></div>
+          <div class="form-row"><div class="form-field"><label for="adminGalleryCaption">Caption</label><input id="adminGalleryCaption" required maxlength="120" /></div><div class="form-field"><label for="adminGalleryDate">Date</label><input id="adminGalleryDate" type="date" /></div></div>
+          <div class="form-row"><div class="form-field"><label for="adminGalleryCategory">Category</label><select id="adminGalleryCategory" required></select></div><div class="form-field"><label for="adminGalleryEvent">Event / Festival</label><input id="adminGalleryEvent" required maxlength="100" placeholder="Christmas Gathering" /></div></div>
+          <button class="button button-primary" type="submit">Add Image</button>
+        </form>
+
+        <div class="panel admin-form admin-question-manager">
+          <div class="panel-heading"><h4>Manage Questions & Senior Answers</h4><span class="pill">community</span></div>
+          <div id="adminQuestionsList" class="admin-questions-list"></div>
+        </div>
+
+        <div class="panel admin-form" id="adminNotesRequestManager">
+          <div class="panel-heading"><h4>Notes Requests</h4><span class="pill">track status</span></div>
+          <div id="adminNotesRequestsList" class="admin-requests-list"></div>
+        </div>
+
+        <div class="panel admin-form">
+          <div class="panel-heading"><h4>News Management</h4><span class="pill">edit / delete</span></div>
+          <div id="adminNewsList" class="admin-content-list"></div>
+        </div>
+
+        <div class="panel admin-form">
+          <div class="panel-heading"><h4>Gallery Management</h4><span class="pill">delete</span></div>
+          <div id="adminGalleryList" class="admin-content-list"></div>
+        </div>
+
+        <div class="panel admin-form">
+          <div class="panel-heading"><h4>Delete Notes & Events</h4><span class="pill">confirmation required</span></div>
+          <div class="form-row"><div class="form-field"><label for="deleteCollection">Collection</label><select id="deleteCollection"><option value="notes">Notes</option><option value="events">Events</option></select></div><div class="form-field"><label for="deleteItem">Item</label><select id="deleteItem"></select></div></div>
+          <button class="button button-secondary" id="deleteSelectedItem" type="button">Delete Selected Item</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-line"><span class="footer-mark" aria-hidden="true">C</span><strong>COFsConnect</strong></div>
+          <p>Connect. Learn. Share. Grow.</p>
+          <p class="footer-inscription">DISCERE • COMMUNICARE • CRESCERE</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <nav class="footer-links" aria-label="Footer links">
+            <a href="#home">Home</a><a href="#news">News</a><a href="#notes">Notes</a><a href="#gallery">Gallery</a><a href="#ask-seniors">Ask Seniors</a><a href="#events">Events</a><a href="#about">About</a>
+          </nav>
+        </div>
+        <div>
+          <h3>External</h3>
+          <a class="footer-experts" href="https://gittrivedi.github.io/#experts" target="_blank" rel="noopener noreferrer">Meet the Experts ↗</a>
+          <p class="footer-admin-link"><a href="#admin">Admin</a></p>
+        </div>
+        <div class="footer-column-accent" aria-hidden="true"><span></span><span></span></div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 COFsConnect. Managed by Tryva.</span>
+        <span>Built as a student-focused educational community hub.</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="global-search" id="globalSearchPanel" hidden>
+    <div class="global-search-backdrop" data-close-global-search></div>
+    <div class="global-search-dialog" role="dialog" aria-modal="true" aria-labelledby="globalSearchTitle">
+      <div class="global-search-head">
+        <div>
+          <p class="eyebrow">FIND YOUR THREAD</p>
+          <h2 id="globalSearchTitle">Search COFsConnect</h2>
+        </div>
+        <button class="icon-button" id="closeGlobalSearch" type="button" aria-label="Close search">×</button>
+      </div>
+      <label class="search-field global-search-input">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="globalSearchInput" type="search" placeholder="Search news, notes, events and questions…" autocomplete="off" />
+      </label>
+      <div id="globalSearchResults" class="global-search-results" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div class="news-modal" id="newsModal" hidden>
+    <div class="news-modal-backdrop" data-close-news></div>
+    <article class="news-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="newsModalTitle">
+      <button class="icon-button news-modal-close" id="newsModalClose" type="button" aria-label="Close news detail">×</button>
+      <div class="news-modal-media"><img id="newsModalImage" alt="" /></div>
+      <div class="news-modal-body">
+        <div class="card-meta"><span class="category-label" id="newsModalCategory"></span><span class="date-label" id="newsModalDate"></span></div>
+        <h2 id="newsModalTitle">News</h2>
+        <p class="news-modal-source" id="newsModalSource"></p>
+        <div class="news-modal-article" id="newsModalArticle"></div>
+        <button class="button button-secondary" id="newsModalBack" type="button">Back to News</button>
+      </div>
+    </article>
+  </div>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lightbox-backdrop" data-close-lightbox></div>
+    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+      <button class="icon-button lightbox-close" id="lightboxClose" type="button" aria-label="Close image viewer">×</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image">‹</button>
+      <div class="lightbox-media-wrap">
+        <img id="lightboxImage" alt="" />
+        <div class="lightbox-caption">
+          <span class="category-label" id="lightboxCategory"></span>
+          <h2 id="lightboxTitle">Gallery image</h2>
+          <p id="lightboxCaption"></p>
+        </div>
+      </div>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Next image">›</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
